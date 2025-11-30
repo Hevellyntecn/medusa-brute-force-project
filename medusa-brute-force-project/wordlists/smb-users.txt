@@ -1,0 +1,14 @@
+root
+msfadmin
+user
+service
+postgres
+sys
+bin
+daemon
+nobody
+ftp
+www-data
+backup
+administrator
+guest

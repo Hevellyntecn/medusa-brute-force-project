@@ -1,0 +1,64 @@
+# Ignorar logs gerados
+logs/
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignorar arquivos de cookies e sessões
+cookies.txt
+session.txt
+
+# Ignorar dumps de banco de dados
+*.sql
+*.db
+
+# Ignorar capturas de rede
+*.pcap
+*.cap
+
+# Ignorar arquivos de configuração com credenciais
+*credentials*
+*secrets*
+
+# Ignorar diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignorar arquivos grandes de wordlists (manter apenas as de exemplo)
+wordlists/rockyou.txt
+wordlists/*-large.txt
+
+# Ignorar resultados de testes sensíveis
+results/
+outputs/
+dumps/
+
+# Ignorar backups
+*.bak
+*.backup
+
+# Ignorar arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Ignorar arquivos Node
+node_modules/
+npm-debug.log
+
+# Manter estrutura de diretórios vazios
+!.gitkeep
