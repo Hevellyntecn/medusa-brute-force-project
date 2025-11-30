@@ -103,7 +103,7 @@ echo -e "\n${YELLOW}════════════════════
 echo -e "${BLUE}[2] Verificando estrutura de diretórios...${NC}"
 echo -e "${YELLOW}════════════════════════════════════════════════════════════${NC}\n"
 
-DIRS=("../wordlists" "../logs" "../images" "../docs" "../scripts")
+DIRS=("../wordlists" "../logs" "../docs" "../scripts")
 
 for dir in "${DIRS[@]}"; do
     if [ -d "$dir" ]; then

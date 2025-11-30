@@ -159,7 +159,7 @@ git status
 # Adicionar alterações
 git add .
 # ou arquivos específicos:
-git add README.md images/ftp-attack/01-scan.png
+git add README.md logs/ftp-attack.log
 
 # Fazer commit
 git commit -m "Descrição das mudanças"
@@ -199,28 +199,29 @@ No topo do README.md, adicione badges personalizados:
 ![GitHub forks](https://img.shields.io/github/forks/Hevellyntecn/medusa-brute-force-project?style=social)
 ```
 
-### Adicionar Capturas de Tela
+### Adicionar Logs Detalhados
 
-1. Tire screenshots dos testes
-2. Salve em `images/ftp-attack/`, `images/dvwa-attack/`, etc.
+1. Execute os testes e gere logs completos
+2. Salve em `logs/` com timestamps
 3. Adicione ao Git:
 
 ```bash
-git add images/
-git commit -m "Adicionar evidências visuais dos testes"
+git add logs/
+git commit -m "Adicionar logs detalhados dos testes realizados"
 git push
 ```
 
 4. Referencie no README:
 
 ```markdown
-### Evidências
+### Logs dos Testes
 
-**Scan Nmap:**
-![Nmap Scan](images/ftp-attack/01-nmap-scan.png)
+Todos os testes geraram logs detalhados disponíveis em:
+- `logs/ftp-attack.log` - Teste de força bruta FTP
+- `logs/dvwa-attack.log` - Teste em aplicação web
+- `logs/smb-attack.log` - Password spraying SMB
 
-**Medusa em Ação:**
-![Medusa Running](images/ftp-attack/02-medusa-attack.png)
+Cada log contém timestamps, tentativas e resultados completos.
 ```
 
 ---

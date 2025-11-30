@@ -268,9 +268,9 @@ Após fazer o push, verifique:
    - ✅ Pasta `wordlists/` com listas
    - ✅ Arquivos LICENSE e .gitignore
 
-3. **Teste os links:**
+2. **Teste os links:**
    - Clique nos links do README
-   - Verifique se as imagens carregam
+   - Verifique se a documentação está completa
 
 ---
 

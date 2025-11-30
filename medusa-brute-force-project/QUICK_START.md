@@ -94,12 +94,10 @@ medusa-brute-force-project/
 │   ├── test-dvwa.sh
 │   └── test-smb.sh
 │
-├── images/               # Capturas de tela
-│   ├── ftp-attack/
-│   ├── dvwa-attack/
-│   └── smb-attack/
-│
-└── logs/                 # Logs dos testes
+└── logs/                 # Logs detalhados dos testes
+    ├── ftp-attack.log
+    ├── dvwa-attack.log
+    ├── smb-attack.log
     └── .gitkeep
 ```
 
@@ -198,7 +196,7 @@ chmod +x scripts/*.sh
    - Executar ataque FTP
    - Executar ataque DVWA
    - Executar ataque SMB
-   - Documentar evidências
+   - Documentar evidências nos logs
 
 4. **Defesa** (45 min)
    - Ler guia de mitigação
@@ -207,10 +205,10 @@ chmod +x scripts/*.sh
    - Testar defesas
 
 5. **Documentação** (30 min)
-   - Adicionar capturas de tela
-   - Escrever conclusões
-   - Atualizar README
-   - Preparar apresentação
+   - Analisar logs gerados
+   - Escrever conclusões detalhadas
+   - Atualizar README com métricas
+   - Preparar relatório técnico
 
 **Total:** ~3-4 horas
 
@@ -238,8 +236,10 @@ cd medusa-brute-force-project/scripts
 # 5. Ver logs gerados
 ls -lh ../logs/
 
-# 6. Capturar evidências
-# (tirar screenshots de cada teste)
+# 6. Analisar logs detalhadamente
+cat ../logs/ftp-attack.log
+cat ../logs/dvwa-attack.log
+cat ../logs/smb-attack.log
 
 # 7. Documentar no GitHub
 cd ..
@@ -307,10 +307,10 @@ Após concluir os testes básicos:
 Para completar o desafio:
 
 1. ✅ Criar repositório público no GitHub
-2. ✅ Adicionar README.md detalhado
-3. ✅ Incluir wordlists e scripts
-4. ✅ Adicionar capturas de tela em `/images`
-5. ✅ Documentar conclusões e aprendizados
+2. ✅ Adicionar README.md detalhado com análises completas
+3. ✅ Incluir wordlists e scripts funcionais
+4. ✅ Adicionar logs detalhados em `/logs`
+5. ✅ Documentar conclusões, métricas e aprendizados
 6. ✅ Enviar link no portal da DIO
 
 **Template para envio:**
