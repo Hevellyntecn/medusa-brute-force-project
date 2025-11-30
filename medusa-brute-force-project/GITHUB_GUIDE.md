@@ -49,8 +49,8 @@ git config --list
    - **Repository name:** `medusa-brute-force-project`
    - **Description:** `Projeto de testes de segurança com Medusa e Kali Linux - Desafio DIO.ME`
    - **Public** (para o desafio ser visível)
-   - ❌ **NÃO** marque "Initialize with README" (já temos um)
-5. Clique em **"Create repository"**
+   - ❌ **NÃO** marque "Initialize with README" (já tenho um)
+5. Clique em **"Create repository"
 
 ### 5️⃣ Preparar Projeto Local
 

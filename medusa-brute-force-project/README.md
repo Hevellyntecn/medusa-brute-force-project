@@ -32,7 +32,7 @@ O objetivo foi compreender como funcionam os ataques de força bruta, identifica
 
 ## 🎓 Objetivos de Aprendizagem
 
-Ao concluir este projeto, foi possível:
+Ao concluir este projeto, consegui:
 
 - ✅ Compreender ataques de força bruta em diferentes serviços (FTP, Web, SMB)
 - ✅ Utilizar o Kali Linux e o Medusa para auditoria de segurança em ambiente controlado
@@ -138,7 +138,7 @@ nmap -sV -p 21 192.168.56.3
 
 #### Preparar Wordlist
 
-Utilizamos uma wordlist personalizada com senhas comuns:
+Utilizei uma wordlist personalizada com senhas comuns:
 
 ```bash
 # Wordlist localizada em: wordlists/ftp-passwords.txt
